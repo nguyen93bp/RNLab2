@@ -6,7 +6,7 @@ const mapContact = (contact) => {
   return {
     id: v4(),
     name: `${name.first} ${name.last}`,
-    picture: picture.large,
+    avatar: picture.large,
     phone,
     cell,
     email,
